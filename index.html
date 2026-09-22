@@ -5,14 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Новата Инвест — независимый агент на рынке инвестиций</title>
 <meta name="description" content="Сравниваем готовые инвестиционные решения от брокеров по вашим параметрам. Бесплатно для клиента.">
-<meta name="theme-color" content="#051A3B">
+<meta name="theme-color" content="#F7F5F0">
 <link rel="icon" href="assets/favicon.ico">
 <meta property="og:type" content="website">
 <meta property="og:title" content="Новата Инвест — независимый агент на рынке инвестиций">
 <meta property="og:description" content="Сравниваем готовые инвестиционные решения от брокеров по вашим параметрам. Бесплатно для клиента.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Spectral:wght@300;400;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/novata.css">
 <link rel="stylesheet" href="assets/site.css">
 </head>
@@ -20,7 +20,7 @@
 
 <a href="#form" class="visually-hidden">Перейти к форме заявки</a>
 
-<!-- ============================ HEADER ============================ -->
+<!-- ============================ ШАПКА ============================ -->
 <header class="site-header" id="siteHeader">
   <div class="container site-header__inner">
     <a href="#" class="brand" aria-label="Новата Инвест — инвестиционно-аналитический сервис">
@@ -36,11 +36,11 @@
     </nav>
 
     <div class="header-actions">
-      <a href="tel:+79260761896" class="icon-btn icon-btn--ghost" aria-label="Позвонить">
+      <a href="tel:+79260761896" class="icon-btn" aria-label="Позвонить">
         <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.5 3h3l1.5 4-2 1.5a12 12 0 006.5 6.5l1.5-2 4 1.5v3c0 1-1 2-2 2A16 16 0 013 6c0-1 1-3 2-3z" fill="currentColor"/></svg>
       </a>
-      <a href="mailto:info@novata-invest.ru" class="icon-btn icon-btn--ghost" aria-label="Написать">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5" stroke="currentColor" stroke-width="2"/><path d="M3.5 7l8.5 6 8.5-6" stroke="currentColor" stroke-width="2"/></svg>
+      <a href="mailto:info@novata-invest.ru" class="icon-btn" aria-label="Написать">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="1" stroke="currentColor" stroke-width="1.6"/><path d="M3.5 7l8.5 6 8.5-6" stroke="currentColor" stroke-width="1.6"/></svg>
       </a>
       <a href="#form" class="btn btn--primary btn--sm">Получить консультацию</a>
       <button class="burger" id="burger" aria-label="Меню" aria-expanded="false" aria-controls="mobileNav">
@@ -53,8 +53,8 @@
 <div class="mobile-nav" id="mobileNav" role="dialog" aria-modal="true" aria-label="Меню">
   <div class="mobile-nav__panel">
     <div class="mobile-nav__top">
-      <button class="icon-btn icon-btn--ghost" id="mobileNavClose" aria-label="Закрыть">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <button class="icon-btn" id="mobileNavClose" aria-label="Закрыть">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
       </button>
     </div>
     <a href="#pain">Боли инвестора</a>
@@ -72,119 +72,57 @@
 
 <main>
 
-<!-- ============================ HERO ============================ -->
+<!-- ============================ ПЕРВЫЙ ЭКРАН ============================ -->
 <section class="hero">
-  <div class="container">
-    <div class="hero__panel on-dark">
-      <div class="hero__grid-lines" aria-hidden="true"></div>
-      <div class="hero__inner">
-        <div class="hero__copy">
-          <span class="badge badge--glass badge--dot">Бесплатно для клиента</span>
-          <h1 class="display hero__title">Новата Инвест:<br><span>независимый агент</span><br>на рынке инвестиций</h1>
-          <p class="hero__sub">Сравниваем готовые инвестиционные решения от брокеров по вашим параметрам.</p>
-          <div class="hero__cta">
-            <a href="#form" class="btn btn--primary btn--lg">Получить консультацию</a>
-            <a href="#solutions" class="btn btn--outline btn--lg">Узнать о решениях</a>
-          </div>
-          <div class="hero__meta">
-            <span class="hero__meta-item">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Независимость от брокеров
-            </span>
-            <span class="hero__meta-item">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Прозрачность и простота
-            </span>
-            <span class="hero__meta-item">
-              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-              Полная поддержка
-            </span>
-          </div>
-        </div>
-
-        <div class="hero__visual" aria-hidden="true">
-          <!-- Абстрактная визуализация сравнения предложений -->
-          <svg viewBox="0 0 440 400" role="presentation">
-            <defs>
-              <linearGradient id="hgCard" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#ffffff" stop-opacity=".14"/>
-                <stop offset="1" stop-color="#ffffff" stop-opacity=".04"/>
-              </linearGradient>
-              <linearGradient id="hgBar" x1="0" y1="1" x2="0" y2="0">
-                <stop offset="0" stop-color="#1E5FE0"/>
-                <stop offset="1" stop-color="#6FA8FF"/>
-              </linearGradient>
-              <linearGradient id="hgBar2" x1="0" y1="1" x2="0" y2="0">
-                <stop offset="0" stop-color="#0F8F6C"/>
-                <stop offset="1" stop-color="#5EE0B6"/>
-              </linearGradient>
-              <linearGradient id="hgLine" x1="0" y1="0" x2="1" y2="0">
-                <stop offset="0" stop-color="#5EE0B6"/>
-                <stop offset="1" stop-color="#8FBBFF"/>
-              </linearGradient>
-              <linearGradient id="hgFill" x1="0" y1="0" x2="0" y2="1">
-                <stop offset="0" stop-color="#8FBBFF" stop-opacity=".34"/>
-                <stop offset="1" stop-color="#8FBBFF" stop-opacity="0"/>
-              </linearGradient>
-            </defs>
-
-            <!-- задняя карточка -->
-            <rect x="52" y="18" width="336" height="132" rx="22" fill="url(#hgCard)" stroke="#ffffff" stroke-opacity=".14"/>
-            <rect x="80" y="52" width="120" height="10" rx="5" fill="#ffffff" fill-opacity=".34"/>
-            <rect x="80" y="74" width="72" height="10" rx="5" fill="#ffffff" fill-opacity=".18"/>
-            <rect x="80" y="96" width="94" height="10" rx="5" fill="#ffffff" fill-opacity=".18"/>
-            <circle cx="336" cy="80" r="26" fill="#ffffff" fill-opacity=".08" stroke="#5EE0B6" stroke-opacity=".7" stroke-width="2"/>
-            <path d="M326 80l7 7 14-15" stroke="#5EE0B6" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-
-            <!-- основная карточка с графиком -->
-            <rect x="16" y="150" width="408" height="234" rx="26" fill="url(#hgCard)" stroke="#ffffff" stroke-opacity=".16"/>
-            <path d="M48 316c34-8 52-44 84-58s46 18 76-8 44-70 86-88" stroke="url(#hgLine)" stroke-width="3.5" fill="none" stroke-linecap="round"/>
-            <path d="M48 316c34-8 52-44 84-58s46 18 76-8 44-70 86-88v152H48z" fill="url(#hgFill)"/>
-            <circle cx="294" cy="162" r="7" fill="#5EE0B6"/>
-            <circle cx="294" cy="162" r="14" fill="#5EE0B6" fill-opacity=".22"/>
-
-            <g>
-              <rect x="300" y="286" width="26" height="46" rx="8" fill="url(#hgBar)"/>
-              <rect x="336" y="258" width="26" height="74" rx="8" fill="url(#hgBar)"/>
-              <rect x="372" y="222" width="26" height="110" rx="8" fill="url(#hgBar2)"/>
-            </g>
-            <rect x="48" y="348" width="160" height="8" rx="4" fill="#ffffff" fill-opacity=".14"/>
-          </svg>
-        </div>
+  <div class="container hero__inner">
+    <div>
+      <span class="eyebrow">Бесплатно для клиента</span>
+      <h1 class="display hero__title">Новата&nbsp;Инвест:<br>независимый агент<br>на рынке инвестиций</h1>
+      <p class="lead hero__sub">Сравниваем готовые инвестиционные решения от брокеров по вашим параметрам.</p>
+      <div class="hero__cta">
+        <a href="#form" class="btn btn--primary btn--lg">Получить консультацию</a>
+        <a href="#solutions" class="btn btn--outline btn--lg">Узнать о решениях</a>
       </div>
     </div>
+
+    <aside class="hero__aside" data-reveal>
+      <div class="hero__aside-title">Агент брокеров</div>
+      <div class="ledger">
+        <div class="ledger__row"><span class="ledger__key">ООО «Ньютон Инвестиции»</span><span class="ledger__val">агент</span></div>
+        <div class="ledger__row"><span class="ledger__key">ООО «Компания БКС»</span><span class="ledger__val">агент</span></div>
+        <div class="ledger__row"><span class="ledger__key">АО ИФК «Солид»</span><span class="ledger__val">агент</span></div>
+        <div class="ledger__row"><span class="ledger__key">ООО «АТОН»</span><span class="ledger__val">агент</span></div>
+      </div>
+      <p>Мы агенты нескольких брокеров и зарабатываем у каждого одинаково. Нет мотива направлять вас к конкретному.</p>
+    </aside>
   </div>
 </section>
 
-<!-- ============================ VALUES ============================ -->
+<!-- ============================ ПРИНЦИПЫ ============================ -->
 <section class="section" id="pain">
   <div class="container">
     <div class="grid grid--4">
       <article class="value" data-reveal>
-        <span class="icon-tile"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="9.5" rx="2.2" stroke="currentColor" stroke-width="1.9"/><path d="M8 10.5V7.2A4 4 0 0116 6.6" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></span>
-        <h3>Независимость<br>от брокеров</h3>
+        <h3 class="h3">Независимость<br>от брокеров</h3>
         <p>Мы агенты нескольких брокеров и зарабатываем у каждого одинаково. Нет мотива направлять вас к конкретному.</p>
       </article>
       <article class="value" data-reveal data-delay="1">
-        <span class="icon-tile"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="5" y="3.5" width="14" height="17" rx="2.2" stroke="currentColor" stroke-width="1.9"/><path d="M8.5 8.5h7M8.5 12h7M8.5 15.5h4" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></span>
-        <h3>Устойчивость</h3>
+        <h3 class="h3">Устойчивость</h3>
         <p>Перед представлением предложений проверяем актуальность условий и корректность параметров каждого продукта.</p>
       </article>
       <article class="value" data-reveal data-delay="2">
-        <span class="icon-tile"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.2l7.2 3.1v5.2c0 4.5-3 8-7.2 9.3-4.2-1.3-7.2-4.8-7.2-9.3V6.3L12 3.2z" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="M9 12l2.2 2.2L15.5 10" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        <h3>Полная поддержка</h3>
+        <h3 class="h3">Полная поддержка</h3>
         <p>Не оставляем вас после подключения к брокеру: мониторим рынок и информируем об изменениях условий.</p>
       </article>
       <article class="value" data-reveal data-delay="3">
-        <span class="icon-tile"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="7" r="2.6" stroke="currentColor" stroke-width="1.9"/><circle cx="6" cy="16.5" r="2.6" stroke="currentColor" stroke-width="1.9"/><circle cx="18" cy="16.5" r="2.6" stroke="currentColor" stroke-width="1.9"/><path d="M10.2 8.9l-2.4 5.2M13.8 8.9l2.4 5.2" stroke="currentColor" stroke-width="1.9"/></svg></span>
-        <h3>Прозрачность<br>и простота</h3>
+        <h3 class="h3">Прозрачность<br>и простота</h3>
         <p>Все комиссии, риски и условия — понятным языком, без финансового жаргона.</p>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ============================ SOLUTIONS ============================ -->
+<!-- ============================ РЕШЕНИЯ ============================ -->
 <section class="section section--tight" id="solutions">
   <div class="container">
     <div class="section-head" data-reveal>
@@ -193,13 +131,13 @@
     </div>
 
     <div class="solutions">
-      <div class="card card--muted solutions__card" data-reveal>
-        <div class="solutions__head">
-          <span class="icon-tile"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 3.2l7.2 3.1v5.2c0 4.5-3 8-7.2 9.3-4.2-1.3-7.2-4.8-7.2-9.3V6.3L12 3.2z" stroke="currentColor" stroke-width="1.9" stroke-linejoin="round"/><path d="M9 12l2.2 2.2L15.5 10" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-          <h3 class="h3">Готовые решения</h3>
-        </div>
+      <div class="solutions__text" data-reveal>
+        <h3 class="h3">Готовые решения</h3>
         <p>Структурные облигации и ЗПИФы от брокеров. Варианты с полной или частичной защитой капитала. Индивидуальная нота — под конкретные параметры.</p>
-        <a href="#form" class="btn btn--navy btn--sm" style="align-self:flex-start">Получить консультацию</a>
+        <a href="#form" class="link-arrow">
+          Получить консультацию
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </div>
       <div class="solutions__media" data-reveal data-delay="1">
         <img src="assets/safe.png" alt="Защита капитала и доходность" width="800" height="748" loading="lazy">
@@ -210,42 +148,38 @@
   </div>
 </section>
 
-<!-- ============================ PROCESS ============================ -->
+<!-- ============================ ПРОЦЕСС ============================ -->
 <section class="section" id="process">
   <div class="container">
     <div class="section-head" data-reveal>
       <h2 class="h2">От заявки до инвестиций – 4 шага</h2>
     </div>
-    <div class="grid grid--4 steps">
+    <div class="grid grid--4">
       <article class="step" data-reveal>
         <span class="step__num">01</span>
-        <span class="icon-tile"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="4.5" y="3" width="15" height="18" rx="2.2" stroke="currentColor" stroke-width="1.9"/><path d="M8 8h8M8 12h8M8 16h5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></span>
-        <h3>Заявка и анализ</h3>
+        <h3 class="h3">Заявка и анализ</h3>
         <p>Оставляете заявку. Анализируем цели, сумму и отношение к риску.</p>
       </article>
       <article class="step" data-reveal data-delay="1">
         <span class="step__num">02</span>
-        <span class="icon-tile"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6" stroke="currentColor" stroke-width="1.9"/><path d="M15 15l5 5" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></svg></span>
-        <h3>Подбор предложений</h3>
+        <h3 class="h3">Подбор предложений</h3>
         <p>Запрашиваем актуальные продукты у брокеров, представляем сравнение.</p>
       </article>
       <article class="step" data-reveal data-delay="2">
         <span class="step__num">03</span>
-        <span class="icon-tile"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M3 11l4-1 4 3 3-1 3 2 4-2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><path d="M3 15l4-1 4 3 3-1 3 2 4-2" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
-        <h3>Согласование</h3>
+        <h3 class="h3">Согласование</h3>
         <p>Вы выбираете вариант. Помогаем с оформлением счёта и документов.</p>
       </article>
       <article class="step" data-reveal data-delay="3">
         <span class="step__num">04</span>
-        <span class="icon-tile"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 17l5-6 4 3 6.5-8" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"/><circle cx="4" cy="17" r="1.8" fill="currentColor"/><circle cx="9" cy="11" r="1.8" fill="currentColor"/><circle cx="13" cy="14" r="1.8" fill="currentColor"/><circle cx="19.5" cy="6" r="1.8" fill="currentColor"/></svg></span>
-        <h3>Сопровождение</h3>
+        <h3 class="h3">Сопровождение</h3>
         <p>Продолжаем мониторить рынок и держим вас в курсе изменений условий.</p>
       </article>
     </div>
   </div>
 </section>
 
-<!-- ============================ ABOUT ============================ -->
+<!-- ============================ ПРИНЦИП ============================ -->
 <section class="section section--tight" id="principle">
   <div class="container">
     <div class="about">
@@ -254,180 +188,132 @@
         <p>Наша цель — сделать сравнение инвестиционных продуктов простым и доступным. Мы не управляем активами и не принимаем решений: мы агрегируем предложения брокеров, чтобы вы могли сделать осознанный выбор самостоятельно. Мы агент нескольких брокеров с одинаковым агентским вознаграждением — в выборе брокера у нас нет предпочтений, только данные.</p>
       </div>
       <figure class="person" data-reveal data-delay="1">
-        <figcaption>
+        <img src="assets/eldar.png" alt="Эльдар Гукепшев" width="578" height="700" loading="lazy">
+        <figcaption class="person__caption">
           <div class="person__name">Эльдар Гукепшев</div>
           <div class="person__role">основатель<br>ИАС «Новата Инвест»</div>
         </figcaption>
-        <img src="assets/eldar.png" alt="Эльдар Гукепшев" width="578" height="700" loading="lazy">
       </figure>
     </div>
-    <p class="disclaimer disclaimer--boxed">ИП Гукепшев Э.В. действует в качестве агента брокеров на основании агентских договоров. Деятельность по предоставлению индивидуальных инвестиционных рекомендаций (ИИР) в смысле ст. 6.1 ФЗ «О рынке ценных бумаг» не ведётся.</p>
+    <p class="disclaimer disclaimer--recess">ИП Гукепшев Э.В. действует в качестве агента брокеров на основании агентских договоров. Деятельность по предоставлению индивидуальных инвестиционных рекомендаций (ИИР) в смысле ст. 6.1 ФЗ «О рынке ценных бумаг» не ведётся.</p>
   </div>
 </section>
 
-<!-- ============================ CTA / FORM ============================ -->
-<section class="cta" id="form">
-  <div class="container">
-    <div class="cta__panel">
-      <div class="cta__glow" aria-hidden="true"></div>
-
-      <div class="cta__left">
-        <h2 class="h2">Получите сравнение предложений брокеров бесплатно</h2>
-        <p>Оставьте заявку — соберём актуальные предложения от брокеров по вашим параметрам и представим сравнение. Без давления и без обязательств.</p>
-        <div class="cta__points">
-          <span class="point">
-            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Бесплатно для клиента
-          </span>
-          <span class="point">
-            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Ответим на ваш вопрос в течение 2 часов
-          </span>
-          <span class="point">
-            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            Доступны в рабочие дни с 09:00 до 18:00 по мск
-          </span>
+<!-- ============================ ЗАЯВКА ============================ -->
+<section class="cta on-ink" id="form">
+  <div class="container cta__inner">
+    <div class="cta__left">
+      <h2 class="h2">Получите сравнение предложений брокеров бесплатно</h2>
+      <p>Оставьте заявку — соберём актуальные предложения от брокеров по вашим параметрам и представим сравнение. Без давления и без обязательств.</p>
+      <div class="cta__contacts">
+        <div>
+          <a href="tel:+79260761896" class="cta__contact-val">+7 (926) 076-18-96</a>
+          <div class="cta__contact-note">Доступны в рабочие дни с 09:00 до 18:00 по мск</div>
+        </div>
+        <div>
+          <a href="mailto:info@novata-invest.ru" class="cta__contact-val">info@novata-invest.ru</a>
+          <div class="cta__contact-note">Ответим на ваш вопрос в течение 2 часов</div>
         </div>
       </div>
+    </div>
 
-      <div class="form-card" id="formCard">
-        <h3 class="form-card__title">Заполните форму — свяжемся в течение 2 часов</h3>
+    <div class="form-card" id="formCard">
+      <h3 class="form-card__title">Заполните форму — свяжемся в течение 2 часов</h3>
 
-        <form id="leadForm" novalidate>
-          <div class="field" data-field>
-            <label class="visually-hidden" for="leadName">Ваше имя</label>
-            <input class="input" type="text" id="leadName" name="name" placeholder="Ваше имя" autocomplete="name" required>
-            <span class="field__error" data-error>Укажите имя</span>
-          </div>
-
-          <div class="field" data-field>
-            <label class="visually-hidden" for="leadEmail">Ваша почта</label>
-            <input class="input" type="email" id="leadEmail" name="email" placeholder="Ваша почта" autocomplete="email" inputmode="email" required>
-            <span class="field__error" data-error>Укажите корректный e-mail</span>
-          </div>
-
-          <div class="field" data-field>
-            <label class="visually-hidden" for="leadPhone">Телефон</label>
-            <input class="input" type="tel" id="leadPhone" name="phone" placeholder="+7 (000) 000-00-00" autocomplete="tel" inputmode="tel" required>
-            <span class="field__error" data-error>Укажите телефон полностью</span>
-          </div>
-
-          <!-- honeypot -->
-          <div class="visually-hidden" aria-hidden="true">
-            <label for="leadCompany">Company</label>
-            <input type="text" id="leadCompany" name="company" tabindex="-1" autocomplete="off">
-          </div>
-
-          <div class="form-card__legal">
-            <div class="field" data-field style="margin-bottom:0">
-              <label class="check">
-                <input type="checkbox" id="agreeData" name="agree_data" required>
-                <span>Я согласен на <a href="agreement.html" class="link-legal" target="_blank" rel="noopener" data-legal="agreement">Обработку персональных данных</a></span>
-              </label>
-              <span class="field__error" data-error>Нужно согласие на обработку данных</span>
-            </div>
-            <div class="field" data-field style="margin-bottom:0">
-              <label class="check">
-                <input type="checkbox" id="agreePolicy" name="agree_policy" required>
-                <span>Я согласен с <a href="policy.html" class="link-legal" target="_blank" rel="noopener" data-legal="policy">Политикой конфиденциальности</a></span>
-              </label>
-              <span class="field__error" data-error>Нужно согласие с политикой</span>
-            </div>
-          </div>
-
-          <button type="submit" class="btn btn--primary btn--block btn--lg">Отправить</button>
-          <p class="form-note">Ответим на ваш вопрос в течение 2 часов</p>
-        </form>
-
-        <div class="form-success" role="status" aria-live="polite">
-          <span class="form-success__mark">
-            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 6L9 17l-5-5" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          </span>
-          <p>Спасибо! Заявка получена.</p>
-          <span class="fine">Ответим на ваш вопрос в течение 2 часов</span>
+      <form id="leadForm" novalidate>
+        <div class="field" data-field>
+          <label class="field__label" for="leadName">Ваше имя</label>
+          <input class="input" type="text" id="leadName" name="name" placeholder="Ваше имя" autocomplete="name" required>
+          <span class="field__error" data-error>Укажите имя</span>
         </div>
+
+        <div class="field" data-field>
+          <label class="field__label" for="leadEmail">Ваша почта</label>
+          <input class="input" type="email" id="leadEmail" name="email" placeholder="Ваша почта" autocomplete="email" inputmode="email" required>
+          <span class="field__error" data-error>Укажите корректный e-mail</span>
+        </div>
+
+        <div class="field" data-field>
+          <label class="field__label" for="leadPhone">Телефон</label>
+          <input class="input" type="tel" id="leadPhone" name="phone" placeholder="+7 (000) 000-00-00" autocomplete="tel" inputmode="tel" required>
+          <span class="field__error" data-error>Укажите телефон полностью</span>
+        </div>
+
+        <!-- honeypot -->
+        <div class="visually-hidden" aria-hidden="true">
+          <label for="leadCompany">Company</label>
+          <input type="text" id="leadCompany" name="company" tabindex="-1" autocomplete="off">
+        </div>
+
+        <div class="form-card__legal">
+          <div class="field" data-field style="margin-bottom:0">
+            <label class="check">
+              <input type="checkbox" id="agreeData" name="agree_data" required>
+              <span>Я согласен на <a href="agreement.html" class="link-legal" target="_blank" rel="noopener" data-legal="agreement">Обработку персональных данных</a></span>
+            </label>
+            <span class="field__error" data-error>Нужно согласие на обработку данных</span>
+          </div>
+          <div class="field" data-field style="margin-bottom:0">
+            <label class="check">
+              <input type="checkbox" id="agreePolicy" name="agree_policy" required>
+              <span>Я согласен с <a href="policy.html" class="link-legal" target="_blank" rel="noopener" data-legal="policy">Политикой конфиденциальности</a></span>
+            </label>
+            <span class="field__error" data-error>Нужно согласие с политикой</span>
+          </div>
+        </div>
+
+        <button type="submit" class="btn btn--primary btn--block btn--lg">Отправить</button>
+        <p class="form-note">Ответим на ваш вопрос в течение 2 часов</p>
+      </form>
+
+      <div class="form-success" role="status" aria-live="polite">
+        <span class="form-success__rule"></span>
+        <p>Спасибо! Заявка получена.</p>
+        <span>Ответим на ваш вопрос в течение 2 часов</span>
       </div>
     </div>
   </div>
 </section>
 
-<!-- ============================ ARTICLES ============================ -->
+<!-- ============================ СТАТЬИ ============================ -->
 <section class="section section--tight" id="articles">
   <div class="container">
     <div class="section-head" data-reveal>
       <h2 class="h2">Статьи</h2>
     </div>
-    <div class="grid grid--3">
+    <div class="articles">
       <article class="article" data-reveal>
-        <div class="article__art">
-          <svg viewBox="0 0 400 250" role="presentation" aria-hidden="true">
-            <defs>
-              <linearGradient id="artA" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EFF5FE"/><stop offset="1" stop-color="#DCE8F7"/></linearGradient>
-            </defs>
-            <rect width="400" height="250" fill="url(#artA)"/>
-            <rect x="96" y="96" width="208" height="112" rx="16" fill="#fff" opacity=".85"/>
-            <rect x="120" y="126" width="88" height="10" rx="5" fill="#BBD3F6"/>
-            <rect x="120" y="148" width="140" height="10" rx="5" fill="#DCE8F7"/>
-            <rect x="120" y="170" width="112" height="10" rx="5" fill="#DCE8F7"/>
-            <path d="M200 40l58 34v46h-38V96h-40v24h-38V74l58-34z" fill="#051A3B"/>
-            <circle cx="286" cy="62" r="20" fill="#1E5FE0" opacity=".16"/>
-          </svg>
-        </div>
-        <div class="article__body">
-          <h3>Т-Банк. Квартирный вопрос. Часть 3</h3>
+        <div class="article__date">13.03.2026</div>
+        <div>
+          <h3 class="h3">Т-Банк. Квартирный вопрос. Часть 3</h3>
           <p>Итоги</p>
-          <div class="article__date">13.03.2026</div>
-          <a href="#" class="btn btn--outline btn--sm btn--block">Подробнее</a>
         </div>
+        <a href="#" class="link-arrow">
+          Подробнее
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </article>
-
       <article class="article" data-reveal data-delay="1">
-        <div class="article__art">
-          <svg viewBox="0 0 400 250" role="presentation" aria-hidden="true">
-            <defs>
-              <linearGradient id="artB" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#F6F8FC"/><stop offset="1" stop-color="#E4EDFB"/></linearGradient>
-              <linearGradient id="artBFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E5FE0" stop-opacity=".28"/><stop offset="1" stop-color="#1E5FE0" stop-opacity="0"/></linearGradient>
-            </defs>
-            <rect width="400" height="250" fill="url(#artB)"/>
-            <path d="M40 190c36-6 54-46 92-58s58 26 92 4 62-72 96-90v144H40z" fill="url(#artBFill)"/>
-            <path d="M40 190c36-6 54-46 92-58s58 26 92 4 62-72 96-90" stroke="#1E5FE0" stroke-width="4" fill="none" stroke-linecap="round"/>
-            <circle cx="320" cy="46" r="8" fill="#12B886"/>
-            <rect x="40" y="206" width="120" height="8" rx="4" fill="#BBD3F6"/>
-          </svg>
-        </div>
-        <div class="article__body">
-          <h3>Т-Банк. Квартирный вопрос. Часть 2</h3>
+        <div class="article__date">13.03.2026</div>
+        <div>
+          <h3 class="h3">Т-Банк. Квартирный вопрос. Часть 2</h3>
           <p>Как заставить государство и банк работать на вашу ипотеку?</p>
-          <div class="article__date">13.03.2026</div>
-          <a href="#" class="btn btn--outline btn--sm btn--block">Подробнее</a>
         </div>
+        <a href="#" class="link-arrow">
+          Подробнее
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </article>
-
       <article class="article" data-reveal data-delay="2">
-        <div class="article__art">
-          <svg viewBox="0 0 400 250" role="presentation" aria-hidden="true">
-            <defs>
-              <linearGradient id="artC" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#EEF2F9"/><stop offset="1" stop-color="#DDE9FA"/></linearGradient>
-            </defs>
-            <rect width="400" height="250" fill="url(#artC)"/>
-            <g stroke="#051A3B" stroke-width="3" stroke-linecap="round">
-              <path d="M84 70v110M132 54v126M180 88v92M228 44v136M276 74v106M324 60v120"/>
-            </g>
-            <rect x="74" y="96" width="20" height="58" rx="6" fill="#1E5FE0"/>
-            <rect x="122" y="76" width="20" height="82" rx="6" fill="#051A3B"/>
-            <rect x="170" y="110" width="20" height="46" rx="6" fill="#1E5FE0"/>
-            <rect x="218" y="64" width="20" height="96" rx="6" fill="#12B886"/>
-            <rect x="266" y="98" width="20" height="62" rx="6" fill="#051A3B"/>
-            <rect x="314" y="84" width="20" height="72" rx="6" fill="#1E5FE0"/>
-            <rect x="60" y="206" width="280" height="6" rx="3" fill="#BBD3F6"/>
-          </svg>
-        </div>
-        <div class="article__body">
-          <h3>Т-Банк. Квартирный вопрос. Часть 1</h3>
+        <div class="article__date">13.03.2026</div>
+        <div>
+          <h3 class="h3">Т-Банк. Квартирный вопрос. Часть 1</h3>
           <p>Как заставить систему работать на ипотеку</p>
-          <div class="article__date">13.03.2026</div>
-          <a href="#" class="btn btn--outline btn--sm btn--block">Подробнее</a>
         </div>
+        <a href="#" class="link-arrow">
+          Подробнее
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
       </article>
     </div>
   </div>
@@ -435,69 +321,71 @@
 
 </main>
 
-<!-- ============================ CONTACTS ============================ -->
-<footer class="contacts on-dark" id="contacts">
+<!-- ============================ КОНТАКТЫ ============================ -->
+<footer class="contacts on-ink" id="contacts">
   <div class="container">
-    <h2 class="h2" style="margin-bottom:clamp(32px,4vw,56px)">Связаться с нами</h2>
+    <h2 class="h2">Связаться с нами</h2>
     <div class="contacts__grid">
       <div class="contact-item">
-        <span class="icon-tile icon-tile--sm icon-tile--light"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6.5 3h3l1.5 4-2 1.5a12 12 0 006.5 6.5l1.5-2 4 1.5v3c0 1-1 2-2 2A16 16 0 013 6c0-1 1-3 2-3z" fill="currentColor"/></svg></span>
-        <div>
-          <a href="tel:+79260761896" class="contact-item__value">+7 (926)-076-18-96</a>
-          <div class="contact-item__note">Доступны в рабочие дни с 09:00 до 18:00 по мск</div>
-        </div>
+        <div class="contact-item__label">Телефон</div>
+        <a href="tel:+79260761896" class="contact-item__value">+7 (926)-076-18-96</a>
+        <div class="contact-item__note">Доступны в рабочие дни с 09:00 до 18:00 по мск</div>
       </div>
       <div class="contact-item">
-        <span class="icon-tile icon-tile--sm icon-tile--light"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><rect x="2.5" y="5" width="19" height="14" rx="2.5" stroke="currentColor" stroke-width="2"/><path d="M3.5 7l8.5 6 8.5-6" stroke="currentColor" stroke-width="2"/></svg></span>
-        <div>
-          <a href="mailto:info@novata-invest.ru" class="contact-item__value">info@novata-invest.ru</a>
-          <div class="contact-item__note">Ответим на ваш вопрос в течение 2 часов</div>
-        </div>
+        <div class="contact-item__label">Почта</div>
+        <a href="mailto:info@novata-invest.ru" class="contact-item__value">info@novata-invest.ru</a>
+        <div class="contact-item__note">Ответим на ваш вопрос в течение 2 часов</div>
       </div>
       <nav class="contacts__links" aria-label="Юридические документы">
+        <div class="contact-item__label">Документы</div>
         <a href="policy.html" data-legal="policy">Политика конфиденциальности</a>
         <a href="agreement.html" data-legal="agreement">Условия использования</a>
       </nav>
     </div>
     <div class="contacts__bottom">
       <p>ИАС Новата Инвест, 2026. Все права защищены.</p>
-      <a href="#form" class="btn btn--light btn--sm">Получить консультацию</a>
+      <a href="#form" class="btn btn--paper btn--sm">Получить консультацию</a>
     </div>
   </div>
 </footer>
 
-<!-- ============================ BOTTOM LEGAL ============================ -->
-<section class="legal-strip">
+<!-- ============================ ДИСКЛЕЙМЕР ============================ -->
+<section class="legal-strip on-ink">
   <div class="container">
     <p>Информация на сайте носит ознакомительный характер и не является индивидуальной инвестиционной рекомендацией (ИИР) в смысле ст. 6.1 ФЗ «О рынке ценных бумаг». Инвестиции в ценные бумаги связаны с рисками, включая риск потери части или всей вложенной суммы. Прошлая доходность не гарантирует будущих результатов. Денежные средства, переданные брокеру, не подлежат страхованию по № 177-ФЗ. Брокером взимается комиссия согласно его тарифам.</p>
   </div>
 </section>
 
-<!-- ============================ STICKY CTA (mobile) ============================ -->
+<!-- ============================ ПЛАВАЮЩАЯ КНОПКА ============================ -->
 <div class="sticky-cta" id="stickyCta">
   <a href="#form" class="btn btn--primary">Получить консультацию</a>
 </div>
 
 <!-- ============================ COOKIE ============================ -->
 <div class="cookie" id="cookie" role="region" aria-label="Cookies">
-  <button class="cookie__close" id="cookieClose" aria-label="Закрыть">✕</button>
-  <p>ИАС Новата Инвест использует файлы cookies для улучшения работы сайта. Оставаясь на нашем сайте,<br>Вы соглашаетесь с условиями использования файлов cookies нажатием на элемент с текстом «Я согласен/согласна»</p>
-  <button class="btn btn--light btn--sm" id="cookieOk">Я Согласен/Согласна</button>
+  <div class="container cookie__inner">
+    <p>ИАС Новата Инвест использует файлы cookies для улучшения работы сайта. Оставаясь на нашем сайте,<br>Вы соглашаетесь с условиями использования файлов cookies нажатием на элемент с текстом «Я согласен/согласна»</p>
+    <button class="btn btn--paper btn--sm" id="cookieOk">Я Согласен/Согласна</button>
+    <button class="cookie__close" id="cookieClose" aria-label="Закрыть">✕</button>
+  </div>
 </div>
 
-<!-- ============================ LEGAL MODAL ============================ -->
+<!-- ============================ ЮРИДИЧЕСКОЕ ОКНО ============================ -->
 <div class="modal" id="legalModal" role="dialog" aria-modal="true" aria-labelledby="legalModalTitle">
   <div class="modal__dialog">
     <div class="modal__head">
       <h2 id="legalModalTitle"></h2>
-      <button class="icon-btn icon-btn--ghost" id="legalModalClose" aria-label="Закрыть">
-        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <button class="icon-btn" id="legalModalClose" aria-label="Закрыть">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
       </button>
     </div>
     <div class="modal__body" id="legalModalBody" tabindex="0"></div>
     <div class="modal__foot">
-      <a id="legalModalLink" href="policy.html" target="_blank" rel="noopener">Открыть отдельной страницей</a>
-      <button class="btn btn--navy btn--sm" id="legalModalOk">Закрыть</button>
+      <a id="legalModalLink" class="link-arrow" href="policy.html" target="_blank" rel="noopener">
+        Открыть отдельной страницей
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      </a>
+      <button class="btn btn--ink btn--sm" id="legalModalOk">Закрыть</button>
     </div>
   </div>
 </div>
