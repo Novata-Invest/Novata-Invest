@@ -21,13 +21,14 @@
   --nv-blue-100:#DCE8F7;
   --nv-blue-50:#EFF5FE;
 
-  --nv-mint-500:#12B886;   /* сигнал: подтверждение, защита */
+  --nv-mint-600:#0B7B5C;   /* сигнал на светлом: текст, иконки */
+  --nv-mint-500:#12B886;   /* сигнал на тёмном и заливки */
   --nv-mint-100:#D9F5EC;
 
   /* — Neutrals ————————————————————————————— */
   --nv-ink:#071127;
   --nv-ink-2:#44506A;
-  --nv-ink-3:#727D96;
+  --nv-ink-3:#646F8A;
   --nv-line:#E3E9F3;
   --nv-line-soft:#EFF3F9;
   --nv-surface:#FFFFFF;
@@ -230,7 +231,7 @@ button,input,textarea,select{font:inherit;color:inherit}
 .badge{
   display:inline-flex;align-items:center;gap:var(--s-2);
   padding:9px 16px;border-radius:var(--r-full);
-  background:var(--nv-mint-100);color:#0B7B5C;
+  background:var(--nv-mint-100);color:var(--nv-mint-600);
   font-size:var(--t-xs);font-weight:700;letter-spacing:-.005em;
 }
 .badge--glass{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.2);backdrop-filter:blur(8px)}

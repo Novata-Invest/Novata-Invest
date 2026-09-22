@@ -128,7 +128,7 @@
 .solutions__card p{color:var(--fg-muted);font-size:1.02rem;line-height:1.66}
 .solutions__points{display:grid;gap:var(--s-3);margin-top:var(--s-2)}
 .point{display:flex;align-items:flex-start;gap:var(--s-3);font-size:var(--t-sm);color:var(--fg-muted);font-weight:600}
-.point svg{width:20px;height:20px;flex:0 0 auto;margin-top:1px;color:var(--nv-mint-500)}
+.point svg{width:20px;height:20px;flex:0 0 auto;margin-top:1px;color:var(--nv-mint-600)}
 .solutions__media{
   position:relative;border-radius:var(--r-lg);overflow:hidden;
   background:linear-gradient(160deg,var(--nv-blue-50),var(--nv-surface-3));
@@ -218,7 +218,7 @@
 .form-card.is-sent form,.form-card.is-sent .form-card__title{display:none}
 .form-success__mark{
   width:64px;height:64px;border-radius:var(--r-full);display:grid;place-items:center;
-  background:var(--nv-mint-100);color:#0B7B5C;
+  background:var(--nv-mint-100);color:var(--nv-mint-600);
 }
 .form-success__mark svg{width:30px;height:30px}
 .form-success p{font-size:1.02rem;font-weight:700;color:var(--nv-navy-900)}
